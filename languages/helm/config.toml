@@ -1,6 +1,6 @@
 name = "Helm"
 grammar = "helm"
-path_suffixes = ["yaml", "gotmpl", "yml"]
+path_suffixes = ["yaml", "gotmpl", "yml", "helm"]
 line_comments = ["#"]
 brackets = [
     { start = "{", end = "}", close = true, newline = false },
