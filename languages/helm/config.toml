@@ -1,0 +1,11 @@
+name = "Helm"
+grammar = "helm"
+path_suffixes = ["yaml", "gotmpl", "yml"]
+line_comments = ["#"]
+brackets = [
+    { start = "{", end = "}", close = true, newline = false },
+    { start = "(", end = ")", close = true, newline = true },
+    { start = "[", end = "]", close = true, newline = false },
+    { start = "\"", end = "\"", close = true, newline = false },
+    { start = "'", end = "'", close = true, newline = false },
+]
