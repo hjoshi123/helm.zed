@@ -1,5 +1,5 @@
 name = "Helm"
-grammar = "go-template"
+grammar = "go_template"
 path_suffixes = ["yaml", "gotmpl", "yml", "helm"]
 line_comments = ["#"]
 brackets = [
