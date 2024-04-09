@@ -1,7 +1,0 @@
-{
-  "name": "Helm",
-  "version": "0.0.1",
-  "authors": ["Hemant Joshi <mail@hjoshi.me>"],
-  "description": "Syntax highlighting for Helm templates",
-  "repository": "https://github.com/hjoshi123/helm"
-}
